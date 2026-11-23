@@ -267,7 +267,7 @@ It generates inputs within the constraints we specify, using a combination of ps
 
 For our integer strategy, `2` and `100` are examples of boundary values it can explore.
 
-Hypothesis also uses information from previous test executions to guide its search. It doesn't guarantee that every possible input will be tested.
+Hypothesis doesn't guarantee that every possible input will be tested. It explores a selection of inputs, including edge cases, within the constraints we specify.
 
 ### How is this different from parametrization?
 
